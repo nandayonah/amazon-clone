@@ -1,0 +1,17 @@
+.product__rating {
+	display: flex;
+	align-items: center;
+}
+
+.product__rating > small {
+	color: #898989;
+	margin-left: 5px;
+}
+
+.product__ratingIcon {
+	color: #f0c14b;
+}
+
+.product__ratingIcon--blank {
+	color: #eee;
+}

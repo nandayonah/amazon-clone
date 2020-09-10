@@ -1,0 +1,27 @@
+.checkoutProduct {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 15px 0;
+  padding: 15px;
+  min-height: 150px;
+  border: 1px solid lightgray;
+  width: 98%;
+}
+
+.checkoutProduct__imageContainer {
+  min-width: 200px;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkoutProduct__image {
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.checkoutProduct__content button {
+  margin-top: 15px;
+}

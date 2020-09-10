@@ -1,0 +1,25 @@
+.button {
+	background: #f0c14b;
+	color: #111;
+	min-width: 100px;
+	font-weight: bolder;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 15px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.button:hover {
+	background: #dfae32;
+}
+
+.button.button--full {
+	width: 100%;
+	display: block;
+}
+
+.button.button--small {
+	padding: 5px 8px;
+	font-size: 12px;
+}
